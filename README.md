@@ -95,7 +95,7 @@ ssh -p 2222 user@localhost -o UserKnownHostsFile=/dev/null -o StrictHostKeyCheck
 
 As an example we'll take the florin/f1_c.c file.
 ```bash
-gcc f1_c.c -o fi --static -no-pie
+gcc f1_c.c -o f1 --static -no-pie
 ```
 
 ### Transferring binaries through scp
