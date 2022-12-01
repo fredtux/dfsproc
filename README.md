@@ -117,7 +117,7 @@ b dfsproc/dfsproc.c:100
 ```
 It should start debugging once it hits the breakpoint.
 ## Debug with VSCode
-Copy the `optional/.vscode` directory to the linux kernel directory and open it. Then while the kernel is loaded with buildroot set a debug point and press F5. It should start debugging once it hits the breakpoint.
+Copy the `optional/.vscode` directory to the linux kernel source code directory and open the kernel source code directory. Then while the kernel is loaded with buildroot set a debug point and press F5. It should start debugging once it hits the breakpoint.
 
 # PART III : Userland applications
 ## Florin
