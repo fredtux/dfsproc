@@ -139,7 +139,11 @@ Copy libgmp.so.10 to the virtual machine
 ```bash
  scp -P 2222  optional/libgmp.so.10 root@localhost:/lib/libgmp.so.10
  ```
-Copy it to the virtual machine
+Compile the file with either stack or cabal. For stack use:
+```bash
+stack build
+```
+Copy the resulting file to the virtual machine
 ```bash
 scp -P 2222 f2 user@localhost:/home/user/
 ```
