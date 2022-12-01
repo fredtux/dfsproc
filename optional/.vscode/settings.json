@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "dfsproc.h": "c",
+        "sched.h": "c",
+        "syscalls.h": "c",
+        "kernel.h": "c",
+        "stdint.h": "c",
+        "string.h": "c",
+        "types.h": "c",
+        "typeinfo": "c",
+        "functional": "c"
+    }
+}
