@@ -66,7 +66,7 @@ struct ProcStruct {
 };
   struct ProcStruct *ps = malloc(sizeof(struct ProcStruct) * 64);
   pid_t pid;
-  scanf("%d", &pid);
+  long x = scanf("%d", &pid);
     
   int tmp = 1;
   int32_t *pidc = &tmp;
