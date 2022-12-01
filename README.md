@@ -102,4 +102,51 @@ gcc f1_c.c -o f1 --static -no-pie
 ```bash
 scp -P 2222 f1 user@localhost:/home/user/
 ```
+# PART II : Debugging the kernel
+To start debugging issue this command:
+```bash
+gdb linux-6.0.6/vmlinux
+```
+To connect to the server issue this command inside gdb
+```
+target remote localhost:1234
+```
+To set a breakpoint inside the dfsproc system call at line 100 (change the number with the desired line)
+```
+b dfsproc/dfsproc.c:100
+```
+It should start debugging once it hits the breakpoint.
+## Debug with VSCode
+Copy the `optional/.vscode` directory to the linux kernel directory and open it. Then while the kernel is loaded with buildroot set a debug point and press F5. It should start debugging once it hits the breakpoint.
 
+# PART III : Userland applications
+## Florin
+### First application
+Build the f1_c.c application like this
+```bash
+gcc f1_c.c -o f1 --static -no-pie
+```
+Copy it to the virtual machine
+```bash
+scp -P 2222 f1 user@localhost:/home/user/
+```
+Connect to the virtual machine either directly (not recommended) or via ssh and run
+```bash
+./f1
+```
+### Second application
+Copy libgmp.so.10 to the virtual machine
+```bash
+ scp -P 2222  optional/libgmp.so.10 root@localhost:/lib/libgmp.so.10
+ ```
+Copy it to the virtual machine
+```bash
+scp -P 2222 f2 user@localhost:/home/user/
+```
+Connect to the virtual machine either directly (not recommended) or via ssh and run
+```bash
+./f2
+```
+**Note that it expects an input, let's say 1**
+
+## Anca
