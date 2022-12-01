@@ -1,7 +1,6 @@
 # Linux system call to list processes in DFS order
-This project is part was made for the Operating Systems laboratory from the University of Bucharest
-
-It is based on the **Linux Kernel 6.0.6**
+- This project is part was made for the Operating Systems laboratory from the University of Bucharest
+- It is based on the **Linux Kernel 6.0.6**
 
 # PART I : Building a functioning kernel and testing environment with buildroot
 ## Preparing the kernel
