@@ -29,7 +29,7 @@ make modules -j $(nproc)
 ```
 
 ## Building buildroot
-This section is a more streamlined (and less flexible) version of the tutorial found here: [https://www.nullbyte.cat/post/linux-kernel-exploit-development-environment/](https://www.nullbyte.cat/post/linux-kernel-exploit-development-environment/).
+This section is a more streamlined (and less flexible) version of the tutorial found here: [https://www.nullbyte.cat/post/linux-kernel-exploit-development-environment/](https://www.nullbyte.cat/post/linux-kernel-exploit-development-environment/). One more thing is added: VSCode integration for debugging the kernel.
 
 **Replace `/path_to_buildroot` with your own path to the buildroot directory.**
 
