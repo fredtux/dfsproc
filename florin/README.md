@@ -1,0 +1,1 @@
+There are 2 important files **f1_c.c** and **f2_haskell.hs**. There is also a symlink to **f2** that is the executable produced by cabal build. Everything else is used to build the haskell executable.
