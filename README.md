@@ -129,7 +129,8 @@ Copy the `optional/.vscode` directory to the linux kernel source code directory 
 
 # PART III : Userland applications
 ## Florin
-My userland programs located in **florin** directory.
+My userland programs located in **florin** directory
+
 ### First application
 Build the f1_c.c application like this
 ```bash
@@ -148,9 +149,9 @@ Copy libgmp.so.10 to the virtual machine
 ```bash
  scp -P 2222  optional/libgmp.so.10 root@localhost:/lib/libgmp.so.10
  ```
-Compile the file with either stack or cabal. For stack use:
+Compile the file with either stack or cabal. For cabal use:
 ```bash
-stack build
+cabal build
 ```
 Copy the resulting file to the virtual machine
 ```bash
