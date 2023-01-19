@@ -1,4 +1,4 @@
-# Linux system call to list processes in DFS order
+# Linux system call to list processes in DFS order + 3 userland programs
 - This project is part was made for the Operating Systems laboratory from the University of Bucharest
 - It is based on the **Linux Kernel 6.0.6**
 
