@@ -1,6 +1,10 @@
-# Linux system call to list processes in DFS order + 3 userland programs
-- This project is part was made for the Operating Systems laboratory from the University of Bucharest
+# Linux system call to list processes in DFS order
+
+
+- This project was made for the Operating Systems laboratory from the University of Bucharest
 - It is based on the **Linux Kernel 6.0.6**
+- Contains the kernel patch, building and debugging config files and 3 userland programs
+- The code for the syscall can be located in **dfsproc** directory
 
 # Table of contents
 * [PART I : Building a functioning kernel and testing environment with buildroot](https://github.com/fredtux/dfsproc#part-i--building-a-functioning-kernel-and-testing-environment-with-buildroot)
