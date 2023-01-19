@@ -7,10 +7,11 @@
 - The code for the syscall can be located in **dfsproc** directory
 
 # Table of contents
-* [PART I : Building a functioning kernel and testing environment with buildroot](https://github.com/fredtux/dfsproc#part-i--building-a-functioning-kernel-and-testing-environment-with-buildroot)
+* [PART I : Building the kernel and testing environment with buildroot](https://github.com/fredtux/dfsproc#part-i--building-the-kernel-and-testing-environment-with-buildroot)
 * [PART II : Debugging the kernel](https://github.com/fredtux/dfsproc#part-ii--debugging-the-kernel)
 * [PART III : Userland applications](https://github.com/fredtux/dfsproc#part-iii--userland-applications)
-# PART I : Building a functioning kernel and testing environment with buildroot
+
+# PART I : Building the kernel and testing environment with buildroot
 ## Preparing the kernel
 Use the patch file inluded in `dfsproc.patch` by issuing this command in the linux kernel source code directory
 ```bash
