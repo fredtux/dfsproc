@@ -5,3 +5,6 @@ A test file written in C in order to test the syscall
 
 ## f2_haskell.hs
 A userland application written in Haskell that uses C code in order to call the system call
+
+___
+For more instructions check out the main README.md file: [https://github.com/fredtux/dfsproc#florin](https://github.com/fredtux/dfsproc#florin)
