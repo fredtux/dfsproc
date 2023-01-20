@@ -172,7 +172,7 @@ Build the a1.c application like this
 gcc a1.c -o a1 --static -no-pie
 Copy it to the virtual machine
 
-scp -P 2222 f1 user@localhost:/home/user/
+scp -P 2222 a1 user@localhost:/home/user/
 Connect to the virtual machine either directly (not recommended) or via ssh and run
 
 ./a1
